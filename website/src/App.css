@@ -1,0 +1,19 @@
+.clip-slant {
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+}
+
+.top40{
+  top: 40%;
+}
+
+.width500{
+  width: 500px;
+}
+
+.width20{
+  width: 20%;
+}
+
+.noResize{
+  resize: none;
+}

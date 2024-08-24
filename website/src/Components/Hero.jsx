@@ -23,20 +23,24 @@ function Hero() {
           <HashLink to={'/#about'}>
             <button className='bg-white text-green-500 px-10 py-2 mt-5 rounded-full hover:bg-green-100'>About</button>
           </HashLink>
+          <HashLink
+            to={'/#services'}>
+            <button className=' border border-white  text-white-500 px-10 py-2 mt-5 ml-4 rounded-full bg-transparent hover:bg-white hover:text-green-500'>Request Certificate</button>
+          </HashLink>
         </div>
 
         <div className='w-full mt-10 md:w-3/6 h-fit flex flex-wrap md:flex-nowrap items-center gap-5 z-10'>
           <div className='w-full md:w-56 h-72 transition-transform duration-200 transform hover:scale-105'>
-            <img src={Picture1} alt='Image 1' className='w-full h-full object-cover rounded-2xl shadow-2xl drop-shadow-2xl'/>
+            <img src={Picture1} alt='Image 1' className='w-full h-full object-cover rounded-2xl shadow-2xl drop-shadow-2xl' />
           </div>
 
           <div className='flex flex-wrap md:flex-col gap-5'>
             <div className='w-full h-32 transition-transform duration-200 transform hover:scale-105'>
-              <img src={Picture2} alt='Image 2' className='w-full h-full object-cover rounded-2xl shadow-2xl drop-shadow-2xl'/>
+              <img src={Picture2} alt='Image 2' className='w-full h-full object-cover rounded-2xl shadow-2xl drop-shadow-2xl' />
             </div>
 
             <div className='w-full h-48 transition-transform duration-200 transform hover:scale-105'>
-              <img src={Picture3} alt='Image 3' className='w-full h-full object-cover rounded-2xl shadow-2xl drop-shadow-2xl'/>
+              <img src={Picture3} alt='Image 3' className='w-full h-full object-cover rounded-2xl shadow-2xl drop-shadow-2xl' />
             </div>
           </div>
         </div>

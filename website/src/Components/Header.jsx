@@ -14,7 +14,7 @@ function Header() {
   const toggleMenu = () => setMenuOpened(!menuOpened);
 
   return (
-    <header className='bg-white fixed top-0 left-0 w-screen h-fit max-w-screen-xl m-auto mx-auto px-10 z-50 border-b-2'>
+    <header className='bg-white fixed top-0 left-0 w-screen h-fit max-w-screen-xxl m-auto mx-auto px-10 z-50 border-b-2'>
       <div className=' flex justify-between items-center py-3 '>
         <div className="flex items-center justify-center gap-x-1">
           <img src={Balon} alt="Logo" className="h-10" />

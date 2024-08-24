@@ -17,7 +17,7 @@ function Hero() {
           <p className='text-3xl font-semibold'>WELCOME TO</p>
           <p className='text-4xl font-semibold'>BARANGAY BALON ANITO</p>
           <p className='mt-5'>Open Hours of Barangay: Monday to Friday (8AM - 5PM)</p>
-          <p>Contact Number: 09101010101</p>
+          <p>Contact Number: 091234567890</p>
           <p>Email: brgybalonanito@gmail.com</p>
 
           <HashLink to={'/#about'}>

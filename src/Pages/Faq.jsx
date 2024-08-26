@@ -10,7 +10,7 @@ const Faq = () => {
     };
 
     return (
-        <div className='max-w-5xl mx-auto p-6'>
+        <div className='max-w-5xl mx-auto p-6 mt-5'>
             <p className='text-4xl mt-16 text-green-500 font-semibold text-center'>FAQ</p>
 
             <div className='mt-12 flex flex-col md:flex-row gap-8'>
